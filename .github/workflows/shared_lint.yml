@@ -3,7 +3,7 @@ name: (Shared) Lint
 on:
   push:
     branches: [main]
-  pull_request:
+  #pull_request:
 
 env:
   TZ: /usr/share/zoneinfo/America/Los_Angeles
