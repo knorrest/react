@@ -1,4 +1,10 @@
-
+export type hohohoLayoutAnimationType =
+  | 'spring'
+  | 'linear'
+  | 'easeInEaseOut'
+  | 'easeIn'
+  | 'easeOut'
+  | 'keyboard';
 
 /**
  * Copyright (c) Meta Platforms, Inc. and affiliates.
