@@ -3,9 +3,9 @@ name: (Runtime) Build and Test
 on:
   push:
     branches: [main]
-  pull_request:
-    paths-ignore:
-      - compiler/**
+  #pull_request:
+  #  paths-ignore:
+  #    - compiler/**
 
 env:
   TZ: /usr/share/zoneinfo/America/Los_Angeles
