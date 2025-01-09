@@ -3388,3 +3388,6 @@ export function injectIntoDevTools(): boolean {
   };
   return injectInternals(internals);
 }
+
+export function dummy(): void {
+}
