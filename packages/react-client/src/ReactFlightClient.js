@@ -1583,6 +1583,8 @@ function parseModelString(
         }
         // Fallthrough
       }
+      case 'dummy':
+        break;
       default: {
         // We assume that anything else is a reference ID.
         const ref = value.slice(1);
