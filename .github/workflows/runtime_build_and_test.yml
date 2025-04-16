@@ -3,9 +3,9 @@ name: (Runtime) Build and Test
 on:
   push:
     branches: [main]
-  pull_request:
-    paths-ignore:
-      - compiler/**
+  #pull_request:
+  #  paths-ignore:
+  #    - compiler/**
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref_name }}-${{ github.event.pull_request.number || github.run_id }}

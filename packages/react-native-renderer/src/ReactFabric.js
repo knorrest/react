@@ -1,3 +1,8 @@
+function f(){
+  return 1;
+}
+
+
 /**
  * Copyright (c) Meta Platforms, Inc. and affiliates.
  *
