@@ -1,0 +1,15 @@
+{
+  "usage": "blabla",
+  "rule_sets": [
+    {
+      "matching_content_path": "**/ReactFizzServer.js",
+      "matching_content_path_doc": "blabla",
+      "rules": [
+      ],
+       "thresholds" : [{
+        "name" : "function_max_arguments",
+        "value" : 16
+      }]
+    }
+  ]
+}
