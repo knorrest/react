@@ -1,0 +1,9 @@
+{
+  "usage" : "",
+  "rule_sets" : [ {
+    "quality_gates" : "pay_down_tech_debt",
+    "quality_gates_doc" : "",
+    "matching_team" : "Team 1",
+    "matching_team_doc" : ""
+  }]
+}
