@@ -3078,22 +3078,12 @@ function warnForMissingKey(request: Request, task: Task, child: mixed): void {
       }
     }
 
-    // We create a fake component stack for the child to log the stack trace from.
-    const previousComponentStack = task.componentStack;
     const stackFrame = createComponentStackFromType(
       task.componentStack,
       (child: any).type,
       (child: any)._owner,
       (child: any)._debugStack,
     );
-    task.componentStack = stackFrame;
-    console.error(
-      'Each child in a list should have a unique "key" prop.' +
-        '%s%s See https://react.dev/link/warning-keys for more information.',
-      currentComponentErrorInfo,
-      childOwnerAppendix,
-    );
-    task.componentStack = previousComponentStack;
   }
 }
 

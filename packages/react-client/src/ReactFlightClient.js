@@ -956,6 +956,9 @@ function waitForReference<T>(
         } else if (chunk.status === INITIALIZED) {
           value = chunk.value;
           continue;
+        } else if (chunk.status === INITIALIZED) {
+          value = chunk.value;
+          continue;
         } else {
           // If we're not yet initialized we need to skip what we've already drilled
           // through and then wait for the next value to become available.
